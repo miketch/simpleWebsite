@@ -8,20 +8,18 @@
     <lastBuildDate>Mon, 06 Jan 2025 20:29:27 +0000</lastBuildDate>
 
     <item>
-      <title>🚨 Change detected on Amazon</title>
-      <link>https://www.amazon.com</link>
+      <title>🚨 Visualping has detected an important change on Amazon.com</title>
+      <link>https://www.amazon.com/text</link>
       <description>
         <![CDATA[
-          <p><b>🚨 Visualping has detected an important change on:</b> <a href="https://www.amazon.com">Amazon</a></p>
-          <p><b>📅 Detected on:</b> Mon, 06 Jan 2025 20:29:27 GMT</p>
+          <p><b>Mon Jan 06 2025 20:29:27 GMT+0000 (Coordinated Universal Time)</p>
           <hr />
-          <h3>💡 Price Update</h3>
-          <p>The price changed from <del>$49.99</del> to <strong>$29.99</strong>. This notes a sale.</p>
+          <p>💡 The price changed from <del>$49.99</del> to <strong>$29.99</strong>. This notes a sale.</p>
           <hr />
           <h3>Overview</h3>
           <ul>
             <li>🟢 <b>Added:</b> $29.99 In Stock</li>
-            <li>🔴 <b>Removed:</b> ~$49.99 Out of Stock~</li>
+            <li>🔴 <b>Removed:</b> <del>$49.99 Out of Stock</del></li>
             <li>🔍 <b>Keywords:</b> In Stock</li>
           </ul>
           <hr />
