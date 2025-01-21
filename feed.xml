@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Visualping Change Detection</title>
+    <link>https://www.visualping.io</link>
+    <description>Change detection notifications for tracked websites.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jan 2025 20:29:27 +0000</lastBuildDate>
+
+    <item>
+      <title>🚨 Change detected on Amazon</title>
+      <link>https://www.amazon.com</link>
+      <description>
+        <![CDATA[
+          <p><b>🚨 Visualping has detected an important change on:</b> <a href="https://www.amazon.com">Amazon</a></p>
+          <p><b>📅 Detected on:</b> Mon, 06 Jan 2025 20:29:27 GMT</p>
+          <hr />
+          <h3>💡 Price Update</h3>
+          <p>The price changed from <del>$49.99</del> to <strong>$29.99</strong>. This notes a sale.</p>
+          <hr />
+          <h3>Overview</h3>
+          <ul>
+            <li>🟢 <b>Added:</b> $29.99 In Stock</li>
+            <li>🔴 <b>Removed:</b> ~$49.99 Out of Stock~</li>
+            <li>🔍 <b>Keywords:</b> In Stock</li>
+          </ul>
+          <hr />
+          <h3>Actions</h3>
+          <p>
+            <a href="https://example.com/text-changes">Text Changes</a> | 
+            <a href="https://example.com/visual-changes">Visual Changes</a> | 
+            <a href="https://example.com/text-changes">Visit Website</a> | 
+            <a href="https://example.com/visual-changes">Job Settings</a>
+          </p>
+          <hr />
+          <h3>Downloads</h3>
+          <p>
+            <a href="https://example.com/previous-png">Previous (PNG)</a> | 
+            <a href="https://example.com/current-png">Current (PNG)</a> | 
+            <a href="https://example.com/previous-html">Previous (HTML)</a> | 
+            <a href="https://example.com/current-html">Current (HTML)</a>
+          </p>
+          <hr />
+          <h3>Workspace</h3>
+          <p>📂 <b>Workspace:</b> Workspace 1</p>
+          <p>🏷️ <b>Labels:</b> Amazon</p>
+          <hr />
+          <h3>Preview:</h3>
+          <img src="https://vp-files-ore.s3.us-west-2.amazonaws.com/resources/3months/371201cf-b625-4dd7-8bea-f090114239cd.png" alt="Preview Image" />
+        ]]>
+      </description>
+      <pubDate>Mon, 06 Jan 2025 20:29:27 +0000</pubDate>
+      <guid>https://www.amazon.com-change-detection-20250106</guid>
+    </item>
+
+  </channel>
+</rss>
