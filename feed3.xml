@@ -1,0 +1,42 @@
+<rss version="2.0">
+<channel>
+<title>Visualping Change Detection</title>
+<link>https://www.visualping.io</link>
+<description>Change detection notifications for tracked websites.</description>
+<language>en-us</language>
+<lastBuildDate>Mon, 06 Jan 2025 20:29:27 +0000</lastBuildDate>
+<item>
+<title>✅ Visualping has detected an important change on Amazon.com</title>
+<link>LINK TO TEXT DIFF</link>
+<description>
+  <![CDATA[
+    <p><b>Mon Jan 06 2025 20:29:27 GMT+0000 (Coordinated Universal Time)</b></p>
+    <hr />
+    <p>💡 The price changed from <del style="color: red;">$49.99</del> to <strong style="color: green;">$29.99</strong>. This notes a sale.</p>
+    <hr />
+    <h3>Overview</h3>
+    <ul>
+      <li>🟢 <b>Added:</b> <span style="color: green;">$29.99 In Stock</span></li>
+      <li>🔴 <b>Removed:</b> <del style="color: red;">$49.99 Out of Stock</del></li>
+      <li>🔍 <b>Keywords:</b> In Stock</li>
+    </ul>
+    <hr />
+    <h3>Review/Edit</h3>
+    <p>
+      <a href="https://example.com/text-changes" style="padding: 10px 15px; text-decoration: none; color: white; background-color: #007BFF; border-radius: 5px;">Text Changes</a>
+      <a href="https://example.com/visual-changes" style="padding: 10px 15px; text-decoration: none; color: white; background-color: #28A745; border-radius: 5px;">Visual Changes</a>
+      <a href="https://example.com/text-changes" style="padding: 10px 15px; text-decoration: none; color: white; background-color: #17A2B8; border-radius: 5px;">Visit Website</a>
+      <a href="https://example.com/visual-changes" style="padding: 10px 15px; text-decoration: none; color: white; background-color: #FFC107; border-radius: 5px;">Job Settings</a>
+    </p>
+    <hr />
+    <h3>Workspace</h3>
+    <p>📂 <b>Workspace:</b> Workspace 1</p>
+    <p>🏷️ <b>Labels:</b> Amazon</p>
+    <hr />
+    <h3>Preview:</h3>
+    <img src="https://vp-files-ore.s3.us-west-2.amazonaws.com/resources/3months/371201cf-b625-4dd7-8bea-f090114239cd.png" alt="Preview Image" style="width: 100%; max-width: 600px; border: 1px solid #ccc; border-radius: 10px;" />
+  ]]>
+</description>
+</channel>
+</rss>
+
