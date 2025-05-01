@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hello World Random Removal</title>
+  <title>Hello World 50% Chance</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -17,19 +17,25 @@
   </style>
 </head>
 <body>
-  <div id="hello">Hello World</div>
+
+  <div id="hello" style="display: none;">Hello World</div>
 
   <script>
-    // Generate a new random delay every time the page is loaded (between 1s and 10s)
-    const randomTime = Math.random() * 9000 + 1000;
+    // 50% chance to show "Hello World"
+    const show = Math.random() < 0.5;
 
-    // Wait for the random time, then remove the "Hello World" text
-    setTimeout(() => {
+    if (show) {
       const helloDiv = document.getElementById('hello');
-      if (helloDiv) {
-        helloDiv.remove(); // Completely removes the element
-      }
-    }, randomTime);
+      helloDiv.style.display = 'block';
+
+      // Random time between 1s and 10s
+      const randomTime = Math.random() * 9000 + 1000;
+
+      // Remove after random time
+      setTimeout(() => {
+        helloDiv.remove();
+      }, randomTime);
+    }
   </script>
 </body>
 </html>
