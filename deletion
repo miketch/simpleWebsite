@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hello World Random Removal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    #hello {
+      font-size: 2em;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div id="hello">Hello World</div>
+
+  <script>
+    // Generate a new random delay every time the page is loaded (between 1s and 10s)
+    const randomTime = Math.random() * 9000 + 1000;
+
+    // Wait for the random time, then remove the "Hello World" text
+    setTimeout(() => {
+      const helloDiv = document.getElementById('hello');
+      if (helloDiv) {
+        helloDiv.remove(); // Completely removes the element
+      }
+    }, randomTime);
+  </script>
+</body>
+</html>
