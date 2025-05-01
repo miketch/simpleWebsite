@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hello World 50% Chance</title>
+  <title>Hello World 50% on Load</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -13,29 +13,19 @@
     #hello {
       font-size: 2em;
       color: #333;
+      display: none; /* start hidden */
     }
   </style>
 </head>
 <body>
-
-  <div id="hello" style="display: none;">Hello World</div>
+  <div id="hello">Hello World</div>
 
   <script>
-    // 50% chance to show "Hello World"
-    const show = Math.random() < 0.5;
-
-    if (show) {
-      const helloDiv = document.getElementById('hello');
-      helloDiv.style.display = 'block';
-
-      // Random time between 1s and 10s
-      const randomTime = Math.random() * 9000 + 1000;
-
-      // Remove after random time
-      setTimeout(() => {
-        helloDiv.remove();
-      }, randomTime);
+    // On page load, 50% chance to show "Hello World"
+    if (Math.random() < 0.5) {
+      document.getElementById('hello').style.display = 'block';
     }
+    // No further removal—visibility is determined only once at load
   </script>
 </body>
 </html>
