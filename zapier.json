@@ -1,0 +1,25 @@
+[
+    {
+        "job_id": 4161328,
+        "url": "https://www.crawl-tester.visualping.io/tests/keyword",
+        "description": "Test",
+        "datetime": "Tue Nov 25 2025 19:53:38 GMT+0000 (Coordinated Universal Time)",
+        "original": "https://vp-public-assets.s3.us-west-2.amazonaws.com/emails/onboarding-emails/text-change-alerts.png",
+        "current": "https://vp-public-assets.s3.us-west-2.amazonaws.com/emails/onboarding-emails/text-change-alerts.png",
+        "preview": "https://vp-public-assets.s3.us-west-2.amazonaws.com/emails/onboarding-emails/text-change-alerts.png",
+        "html_previous": "",
+        "html_current": "",
+        "change": "10 %",
+        "view_changes": "https://visualping.io/autologin?redirect=%2Fjobs%2F4161328%3Fmode%3Dvisual",
+        "job_settings": "https://visualping.io/autologin?redirect=%2Fjobs%2F4161328%3Fmode%3Dvisual",
+        "visual_changes": "https://visualping.io/autologin?redirect=%2Fjobs%2F4161328%3Fmode%3Dvisual",
+        "text_changes": "TEXT CHANGES",
+        "added_text": "Added text",
+        "removed_text": "Removed text",
+        "labels": "⚽ label1, 🎁 label2",
+        "summarizer": "Test Summary",
+        "important": "false",
+        "good_feedback": "https://visualping.io/feedback?id=0&jobId=0&vote=GOOD&processId=0&source=Webhook",
+        "bad_feedback": "https://visualping.io/feedback?id=0&jobId=0&vote=BAD&processId=0&source=Webhook"
+    }
+]
